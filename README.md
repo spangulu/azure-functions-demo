@@ -1,1 +1,13 @@
-# portfolio-demo-07  Azure Functions sample project  ## Overview  This repository is a sample project for a portfolio.  ## Tech Stack  - GitHub - Java / Python / JavaScript / .NET  ## Notes  This sample was created to demonstrate project structure and GitHub publishing workflow.
+# Azure Functions Demo
+
+HTTP-triggered Node.js Azure Functions v4 sample by **Sarath Panguluri**.
+
+Requirements: Node.js, npm and Azure Functions Core Tools v4.
+
+```bash
+npm install
+npm start
+# GET http://localhost:7071/api/hello?name=Sarath
+```
+
+Copy `local.settings.json.example` to `local.settings.json` before running. Sample not built, tested, or deployed during publication.
